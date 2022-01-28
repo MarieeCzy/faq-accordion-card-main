@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.logo>img {
+    width: 100%;
+
+}
+
+.logo {
+    position: absolute;
+    z-index: 11;
+    top: 2.5%;
+    scale: .7;
+    width: 230px;
+}
+
+.logo__bottom {
+    position: absolute;
+    z-index: 12;
+    top: 17%;
+    width: fit-content;
+}
+
+.container {
+    position: relative;
+    z-index: -1;
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    box-sizing: content-box;
+
+}
+
+
+
+.faq-page {
+
+    position: absolute;
+    top: 18%;
+    /* margin-top: 25%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 85vw;
+    /* height: 75vh; */
+    border-radius: 20px;
+    box-sizing: content-box;
+    padding-bottom: 5%;
+
+
+}
+
+.faq-page__head {
+    width: 100%;
+    margin-top: 15%;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.faq-page__head__title {
+    text-align: center;
+
+}
+
+.faq-page__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: content-box;
+
+
+}
+
+
+
+.faq-page__body>article {
+    /* height: 15%; */
+    width: 85%;
+
+}
+
+.faq-page__body__element {
+    width: 100%;
+    padding-bottom: 2.5%;
+    margin-bottom: 5%;
+    border-bottom: .5px solid rgba(128, 128, 128, 0.301);
+}
+
+.faq-page__body__element__title {
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.faq-page__body__element__content {
+    display: none;
+    width: 90%;
+}
+
+img {
+    align-self: center;
+    height: fit-content;
+}
+
+p,
+h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+
+/* klasy js */
+
+/* 
+js-
+
+*/
+
+.active,
+.faq-page__body__element__title:hover {
+    font-weight: bold;
+}
+
